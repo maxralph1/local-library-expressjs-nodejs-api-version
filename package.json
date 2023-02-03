@@ -1,0 +1,28 @@
+{
+  "name": "local-library-expressjs-nodejs-api-version",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/api",
+    "devstart": "nodemon .bin/api",
+    "serverstart": "DEBUG=local-library:* npm run devstart"
+  },
+  "author": "Maximillian Raphaels",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "date-fns": "^2.23.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "express-validator": "^6.14.3",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.9.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
